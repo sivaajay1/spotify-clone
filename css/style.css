@@ -38,4 +38,86 @@ ul li{
 }
 .right{
     width: 75vw;
+    margin: 16px 0;
+}
+.footer{
+    gap:13px;
+    font-size: 10px;
+    color: grey;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+}
+.footer a{
+    color:grey;
+}
+.libary{
+    min-height: 80vh;
+    position :relative;
+}
+.header{
+    justify-content: space-between;
+    background-color: rgb(58, 56, 56);
+}
+.header >* {
+    padding: 20px;
+}
+.signupbtn{
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    color: rgb(156, 148, 148);
+    background-color: black;
+    border:none;
+    font-weight: bold;
+
+}
+.signupbtn:hover{
+    font-size:17px ;
+    color: bisque;
+}
+.btn >*{
+    margin: 0 12px;
+}
+.loginbtn{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 79px;  
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight:bold;
+    cursor: pointer;
+}
+.loginbtn:hover{
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.spotifyplay{
+    padding: 16px;
+}
+.cardcointainer{
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y:auto ;
+    max-height: 60vh;
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    position: relative;
+    transition: all .9s;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+
+}
+.card > *{
+    padding: 10px;
 }
